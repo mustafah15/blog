@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'A Developer Thoughts',
     author: 'Mustafa Hussain',
-    description: 'personal blog',
+    description: 'Mustafa Hussain\'s Journal',
     siteUrl: 'https://mustafah15.github.io',
     social: {
       github: 'mustafah15',
