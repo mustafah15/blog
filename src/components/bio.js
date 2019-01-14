@@ -34,7 +34,7 @@ function Bio() {
                  Twitter{' '}
               </a>
               or check his{' '}
-              <a href={`https://twitter.com/${social.github}`}>
+              <a href={`https://github.com/${social.github}`}>
                  github
               </a>
 

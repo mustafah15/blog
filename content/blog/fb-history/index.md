@@ -1,6 +1,7 @@
 ---
 title: Some history about Functional programming - λ calculus!
 date: "2018-04-11T22:12:03.284Z"
+time: "2"
 ---
 
 ### Some history about Functional programming - λ calculus

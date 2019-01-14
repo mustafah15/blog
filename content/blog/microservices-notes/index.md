@@ -1,6 +1,7 @@
 ---
 title: Notes on building microservices!
 date: "2018-08-01T22:12:03.284Z"
+time: "3"
 ---
 
 # Notes on building microservices | part one
