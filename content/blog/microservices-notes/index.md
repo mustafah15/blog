@@ -4,8 +4,6 @@ date: "2018-08-01T22:12:03.284Z"
 time: "3"
 ---
 
-# Notes on building microservices | part one
-
 ![](https://cdn-images-1.medium.com/max/1440/1*3JKJYR37PS9JMy1gGIi0fw.jpeg)
 
 The idea of separating application into a smaller parts is nothing new, there
