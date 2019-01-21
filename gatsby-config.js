@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'A Developer Notes',
+    title: 'Developer Notes',
     author: 'Mustafa Hussain',
     description: 'Mustafa Hussain\'s Journal',
     siteUrl: 'https://mustafah15.github.io',
