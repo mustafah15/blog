@@ -4,8 +4,6 @@ date: "2019-03-20T22:12:03.284Z"
 time: "7"
 ---
 
-### Testing Microservices
-
 A microservice architecture involves many moving parts with different guarantees
 and failure modes, testing these systems is more challenging than testing
 traditional monolithic application. an effective test strategy needs to account
