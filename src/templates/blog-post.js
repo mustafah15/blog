@@ -6,11 +6,15 @@ import Layout from '../components/layout'
 import SEO from '../components/seo'
 import { rhythm, scale } from '../utils/typography'
 
+const GITHUB_USERNAME = 'mustafah15'
+const GITHUB_REPO_NAME = 'blog'
 class BlogPostTemplate extends React.Component {
   render() {
+    const slug = this.props.pageContext.slug
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
+    const editUrl = `https://github.com/${GITHUB_USERNAME}/${GITHUB_REPO_NAME}/edit/master/content/blog${slug}index.md`;
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -27,6 +31,9 @@ class BlogPostTemplate extends React.Component {
           {post.frontmatter.date} {', '} {post.frontmatter.time} {' min read'} 
         </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <a href={editUrl} target="_blank" rel="noopener noreferrer">
+          Edit on GitHub
+        </a>
         <hr
           style={{
             marginBottom: rhythm(1),
