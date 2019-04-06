@@ -22,7 +22,7 @@ independently deployed and developed.
 *****
 
 We will discuss a little how we can design a cohesive software component, we
-will discuss **principles of components cohesion **which [uncle
+will discuss **principles of components cohesion** which [uncle
 bob](https://en.wikipedia.org/wiki/Robert_C._Martin) defined them in details in
 his book [clean
 architecture](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882).
