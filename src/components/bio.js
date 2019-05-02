@@ -28,12 +28,12 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who works as Backend developer.
-              You may follow him on{' '}
+              Written by <strong>{author}</strong> cloud Application Developer @IBM.
+              You can follow me on{' '}
               <a href={`https://twitter.com/${social.twitter}`}>
                  Twitter{' '}
               </a>
-              or check his{' '}
+              or check my{' '}
               <a href={`https://github.com/${social.github}`}>
                  github
               </a>
