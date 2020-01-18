@@ -38,3 +38,18 @@ the most common type of NoSQL
 - **Reliability**
     - vast majority of relational databases are ACID compliant. so when it comes to data reliability and safe guarantee of performing transactions, sql database are still the better bet.
     - most of nosql solutions sacrifices acid compliance for performance and scalability.
+
+### **Reasons to use SQL databases**
+1. we need to ensure **ACID (Atomicity, Consistency, Isolation, Durability)** compliance. acid compliance reduces anomalies and protect the integrity of your database by describing how transactions interact with the database. generally nosql database sacrifice acid compliance for scalability and processing speed but form many e-commerce and financial applications an ACID compliant remains the preferred option.
+
+2. your data is structured and unchanging. if your business is not experiencing massive growth that would require more servers and if you’re only working with data that is consistent, then there's no reason to use a system designed to support a variate of data types and high traffic volumes.
+
+when all the other components of our application are fast and seamless, nosql databases prevent data from being the bottleneck. big data is contributing to a large success for nosql databases mainly because it handles data differently than the traditional relational databases. A few popular examples of no sql databases are mongodb couchdb cassandra.
+
+### **Reasons to use NOSQL databases**
+
+1. storing large volumes of data that often have little to no structure. a nosql database sets no limits on the type of data we can store together and allows us to add new types as the need changes. with document-based databases, you can store data in one place without having to define what types of data those are in advance.
+
+2. making the most of cloud computing and storage. cloud based storage is and excellent cost saving solutions but requires data to be easily speared across multiple servers to scale up. using commodity hardware on-site or in the cloud saves you the hassle of additional software and nosql databases like cassendra are designed to be across multiple data centers out of the box, without a lot of headaches.
+
+3. Rapid development. nosql is extremely useful for rapid development  as it dosen't need to be prepped a head of time. if you’re working on quick iterations of your system which require making require frequent updates to the data structure without a lot of downtime between versions, a relational database will slow you down.
