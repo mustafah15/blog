@@ -1,7 +1,7 @@
 ---
 title: Building Scalable Systems
-date: "2018-12-31T22:12:03.284Z"
-time: "1"
+date: "2020-04-16T22:12:03.284Z"
+time: "12"
 ---
 
 # Building Scalable Systems
