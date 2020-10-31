@@ -40,6 +40,10 @@ class BlogPostTemplate extends React.Component {
           
           <hr
             style={{
+              color: 'green',
+              display: 'block',
+              height: '1px',
+              borderTop: '1px solid #888888',
               marginTop: rhythm(1),
               marginBottom: rhythm(1),
             }}

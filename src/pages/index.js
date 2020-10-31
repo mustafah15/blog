@@ -42,7 +42,16 @@ class BlogIndex extends React.Component {
             </div>
           )
         })}
-
+        <hr
+            style={{
+              color: 'green',
+              display: 'block',
+              height: '1px',
+              borderTop: '1px solid #888888',
+              marginTop: rhythm(1),
+              marginBottom: rhythm(2),
+            }}
+          />
         <NewsLetter />
         
       </Layout>
