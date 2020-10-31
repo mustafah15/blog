@@ -2,12 +2,12 @@ module.exports = {
   siteMetadata: {
     title: 'Developer Notes',
     author: 'Mustafa Hussain',
-    description: 'personal blog by Mustafa Hussain',
-    siteUrl: 'https://mustafah15.github.io',
+    description: 'Software Developer notes on how to build scalable system and good productive habits',
+    siteUrl: 'https://mhussain.net',
     social: {
       github: 'mustafah15',
       twitter: 'mustafah_15',
-      email: 'mustafa.hussain93@gmail.com'
+      email: 'hey@mhussain.net'
     }
   },
   plugins: [
@@ -60,10 +60,10 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Mustafa Hussain's blog`,
-        short_name: `Mustafah15`,
+        short_name: `mhussain.net`,
         start_url: `/`,
         background_color: `#282c35`,
-        theme_color: `#663399`,
+        theme_color: `#1677be`,
         display: `minimal-ui`,
         icon: `content/assets/gatsby-icon.png`,
       },
