@@ -28,7 +28,7 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> cloud Application Developer @IBM.
+              Written by <strong>{author}</strong> Backend Developer @ avvocatoflash.it, Ex-IBMer
               You can follow me on{' '}
               <a href={`https://twitter.com/${social.twitter}`}>
                  Twitter{' '}
