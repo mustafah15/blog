@@ -27,7 +27,7 @@ Becoming a parent or knowing I will become a parent really changed my perspectiv
 ### Gratitude
 I am really grateful for everything that happened to me this year whether it was good or bad,
 and most importantly I am grateful for the man who gave me this advice when I asked him for career advice:
-> "If you become a better man automatically you become a better employee"
+##### "If you become a better man automatically you become a better employee"
 
 ### 2021
 
