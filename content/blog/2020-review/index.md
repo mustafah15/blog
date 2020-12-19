@@ -30,15 +30,15 @@ Becoming a parent or knowing I will become a parent really changed my perspectiv
 I am really grateful for everything that happened to me this year whether it was good or bad,
 and most importantly I am grateful for the man who gave me this advice when I asked him for career advice:
 ### "If you become a better man automatically you become a better employee"
-this advice really helped me to change my directions and to think in another way that I haven't thought before.
+This advice really helped me to change my directions and to think in another way that I haven't thought before.
 
 ## 2021
 
 In 2021, I want to do the following
 
-- traveling, enjoying the trips if it's possible again, please that's enough for the quarantine.
-- blogging more often about non-technical stuff.
-- maintaining my training & diet and running a complete marathon.
-- learn more about AWS and get the AWS cloud practitioner at least.
+- Traveling, enjoying the trips if it's possible again, please that's enough for the quarantine.
+- Blogging more often about non-technical stuff.
+- Maintaining my training & diet and running a complete marathon.
+- Learn more about AWS and get the AWS cloud practitioner at least.
 
 That's it, Let's hope for beautiful calm 2021.
