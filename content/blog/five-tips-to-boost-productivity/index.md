@@ -1,6 +1,6 @@
 ---
 title: Five Tips I Use To Boost My Productivity
-date: "2020-12-19T22:12:03.284Z"
+date: "2020-12-23T22:12:03.284Z"
 time: "7"
 tags: productivity, tips
 ---
