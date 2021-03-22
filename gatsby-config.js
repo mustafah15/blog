@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Developer Notes',
+    title: '',
     author: 'Mustafa Hussain',
-    description: 'Software Developer notes on how to build scalable system and good productive habits',
+    description: 'I share what I learned about software engineering, productivity, and building new habits on my Youtube channel and blog. Feel free to join my newsletter to follow along.',
     siteUrl: 'https://mhussain.net',
     social: {
       github: 'mustafah15',
