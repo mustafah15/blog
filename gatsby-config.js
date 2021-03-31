@@ -1,12 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: '',
+    title: 'Developer Stories',
     author: 'Mustafa Hussain',
-    description: 'I share what I learned about software engineering, productivity, and building new habits on my Youtube channel and blog. Feel free to join my newsletter to follow along.',
+    description: 'Personal blog by Mustafa Hussain. \n I share what I learned about software engineering, productivity, and building new habits on my Youtube channel and blog. Feel free to join my newsletter to follow along.',
     siteUrl: 'https://mhussain.net',
     social: {
       github: 'mustafah15',
       twitter: 'mustafah_15',
+      youtube: 'https://www.youtube.com/channel/UC_57Z3KC1RzGRJMBYZGJYtA',
       email: 'hey@mhussain.net'
     }
   },

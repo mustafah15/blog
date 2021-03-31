@@ -10,6 +10,7 @@ import { rhythm, scale } from '../utils/typography'
 
 const GITHUB_USERNAME = 'mustafah15'
 const GITHUB_REPO_NAME = 'blog'
+
 class BlogPostTemplate extends React.Component {
   render() {
     const slug = this.props.pageContext.slug

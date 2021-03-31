@@ -28,16 +28,17 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> Backend Developer @ avvocatoflash.it, Ex-IBMer
-              You can follow me on{' '}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                 Twitter{' '}
+              Personal blog by
+              <strong>
+                <a href={`https://twitter.com/${social.twitter}`}>
+                {author}
+                </a>
+              </strong>.
+              I share what I learned about Software Engineering, Productivity, and building new habits on my
+              <a href={`${social.youtube}`}>
+              Youtube channel
               </a>
-              or check my{' '}
-              <a href={`https://github.com/${social.github}`}>
-                 github
-              </a>
-
+              and blog. Feel free to join my newsletter to follow along.
             </p>
           </div>
         )
