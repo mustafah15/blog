@@ -28,17 +28,18 @@ function Bio() {
               }}
             />
             <p>
-              Personal blog by
+              Personal blog by {' '}
               <strong>
                 <a href={`https://twitter.com/${social.twitter}`}>
                 {author}
                 </a>
-              </strong>.
-              I share what I learned about Software Engineering, Productivity, and building new habits on my
+              </strong>.{' '}
+
+              I share what I learned about Software Engineering, Productivity, and building new habits on my {' '}
               <a href={`${social.youtube}`}>
-              Youtube channel
+                Youtube channel
               </a>
-              and blog. Feel free to join my newsletter to follow along.
+              {' '} and blog. Feel free to join my newsletter to follow along.
             </p>
           </div>
         )
