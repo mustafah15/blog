@@ -36,7 +36,7 @@ function Bio() {
               </strong>.{' '}
 
               I share what I learned about Software Engineering, Productivity, and building new habits on my {' '}
-              <a href={`${social.youtube}`}>
+              <a href={'https://www.youtube.com/channel/UC_57Z3KC1RzGRJMBYZGJYtA'}>
                 Youtube channel
               </a>
               {' '} and blog. Feel free to join my newsletter to follow along.
