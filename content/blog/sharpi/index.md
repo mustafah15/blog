@@ -14,6 +14,6 @@ This request will change your image resize your image to be of 200px width and 2
 
 you have also another option to crop the image
 
-find the full documenation of the request [here](pnhttps://sharpi.stoplight.io/docs/sharpi/swagger.json/paths/~1beta/get)
+find the full documenation of the request [here](https://sharpi.stoplight.io/docs/sharpi/swagger.json/paths/~1beta/get)
 
 enjoy..

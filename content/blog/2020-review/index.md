@@ -15,11 +15,7 @@ I started the year with the will to focus on becoming a better man not only to h
 and because of the lockdown during the 2020 I started to workout without going to the Gym. 
   I did some bodywight exercises and after that I got some dumbbells and started to lift weights and eventually started to go running since June and so far I have run for 119.9 miles so far, this really helped me to reduce my body fat from 25% at the beginning of the year to reach 17%, not so great but it was worth the effort after all.
   ![Mustafa's reading challenge](running-challenge.jpeg)
-  
-##
-- Also, In my professional life I have left my comfort job at IBM to start a new job with new challenges, technical and non-technical,
-Addition to that I have started maintaining a study routine to study new topics (cloud and serverless) and fundamental concepts like problem solving.
-
+ 
 After all I've managed to build, track and maintain healthy habits and routines during this year, and that's really a life changing win.
 
 ## Magical moment
