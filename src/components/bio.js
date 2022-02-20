@@ -35,7 +35,7 @@ function Bio() {
                 </a>
               </strong>.{' '}
 
-              I share what I learned about Software Engineering, Productivity, and building new habits on my {' '}
+              I share what I learned about Software Engineering, Productivity, on my {' '}
               <a href={'https://www.youtube.com/channel/UC_57Z3KC1RzGRJMBYZGJYtA'}>
                 Youtube channel
               </a>
