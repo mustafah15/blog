@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import { ThemeToggler } from 'gatsby-plugin-dark-mode'
 
 import { rhythm, scale } from '../utils/typography'
 
@@ -10,24 +11,36 @@ class Layout extends React.Component {
     let header
     if (location.pathname === rootPath) {
       header = (
-        <h1
-          style={{
-            ...scale(1.0),
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
-          }}
-        >
-          <Link
+        <header style={{ position: 'relative' }}>
+          <h1
             style={{
-              boxShadow: 'none',
-              textDecoration: 'none',
-              color: 'inherit',
+              ...scale(1.0),
+              marginBottom: rhythm(1.5),
+              marginTop: 0,
             }}
-            to={'/'}
           >
-            {title}
-          </Link>
-        </h1>
+            <Link
+              style={{
+                boxShadow: 'none',
+                textDecoration: 'none',
+                color: 'inherit',
+              }}
+              to={'/'}
+            >
+              {title}
+            </Link>
+          </h1>
+          <ThemeToggler>
+            {({ theme, toggleTheme }) => (
+              <button
+                style={{ position: 'absolute', bottom: '.75rem', right: 0 }}
+                onClick={() => toggleTheme(theme === 'dark' ? 'light' : 'dark')}
+              >
+                {theme === 'dark' ? '🌙' : '🌞'}
+              </button>
+            )}
+          </ThemeToggler>
+        </header>
       )
     } else {
       header = (
@@ -58,8 +71,8 @@ class Layout extends React.Component {
           marginRight: 'auto',
           maxWidth: rhythm(26),
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-          backgroundColor: '#121212',
-          color: '#fff'
+          backgroundColor: 'var(--bg)',
+          color: 'var(--textNormal)',
         }}
       >
         {header}
