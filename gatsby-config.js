@@ -8,7 +8,7 @@ module.exports = {
       github: 'mustafah15',
       twitter: 'mustafah_15',
       youtube: 'https://www.youtube.com/channel/UC_57Z3KC1RzGRJMBYZGJYtA',
-      email: 'hey@mhussain.net'
+      email: ''
     }
   },
   plugins: [
