@@ -1,8 +1,23 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import { ThemeToggler } from 'gatsby-plugin-dark-mode'
+import { ThemeToggler as Toggler } from 'gatsby-plugin-dark-mode'
 
 import { rhythm, scale } from '../utils/typography'
+
+const ThemeToggler = props => {
+  return (
+    <Toggler>
+      {({ theme, toggleTheme }) => (
+        <button
+          {...props}
+          onClick={() => toggleTheme(theme === 'dark' ? 'light' : 'dark')}
+        >
+          {theme === 'dark' ? '🌙' : '🌞'}
+        </button>
+      )}
+    </Toggler>
+  )
+}
 
 class Layout extends React.Component {
   render() {
@@ -30,38 +45,44 @@ class Layout extends React.Component {
               {title}
             </Link>
           </h1>
-          <ThemeToggler>
-            {({ theme, toggleTheme }) => (
-              <button
-                style={{ position: 'absolute', bottom: '.75rem', right: 0 }}
-                onClick={() => toggleTheme(theme === 'dark' ? 'light' : 'dark')}
-              >
-                {theme === 'dark' ? '🌙' : '🌞'}
-              </button>
-            )}
-          </ThemeToggler>
+          <ThemeToggler
+            style={{
+              position: 'absolute',
+              top: 12,
+              right: 0,
+            }}
+          />
         </header>
       )
     } else {
       header = (
-        <h3
-          style={{
-            fontFamily: 'Montserrat, sans-serif',
-            marginTop: 0,
-            marginBottom: rhythm(-1),
-          }}
-        >
-          <Link
+        <header style={{ position: 'relative' }}>
+          <h3
             style={{
-              boxShadow: 'none',
-              textDecoration: 'none',
-              color: 'inherit',
+              fontFamily: 'Montserrat, sans-serif',
+              marginTop: 0,
+              marginBottom: rhythm(-1),
             }}
-            to={'/'}
           >
-            {title}
-          </Link>
-        </h3>
+            <Link
+              style={{
+                boxShadow: 'none',
+                textDecoration: 'none',
+                color: 'inherit',
+              }}
+              to={'/'}
+            >
+              {title}
+            </Link>
+          </h3>
+          <ThemeToggler
+            style={{
+              position: 'absolute',
+              top: -8,
+              right: 0,
+            }}
+          />
+        </header>
       )
     }
     return (
