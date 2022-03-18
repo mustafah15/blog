@@ -1,7 +1,8 @@
 ---
 title: Building Scalable Systems
-date: "2020-04-16T22:12:03.284Z"
-time: "12"
+date: '2020-04-16T22:12:03.284Z'
+time: '12'
+tags: ['lorem', 'ipsum']
 ---
 
 This blog some shattered notes maybe we should consider while studying about how to build scalable distributed system before we dive into let's start with some definitions as they are the main characteristics of any distributed system
@@ -101,8 +102,8 @@ this allows for higher scalability by reducing or eliminating things that preven
 
 - sharding doesn't eliminate contention, it isolates it, with a single entity there's a convention.
 - the router represents a source of contention as well, but A sharded system minimizes contention by
-    - limiting the amount of work the router performs.
-    - isolating contention to individual entities.
+  - limiting the amount of work the router performs.
+  - isolating contention to individual entities.
 - scalability is achieved by distributing the shards over more machines
 - strong consistency is achieved by isolating operation to a specific entity
 - carful choice of the shared key is important to maintain good scalability

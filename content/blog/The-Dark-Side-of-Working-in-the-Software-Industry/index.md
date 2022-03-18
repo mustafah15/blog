@@ -1,7 +1,8 @@
 ---
 title: The Dark Side of Working in the Software Industry
-date: "2022-02-20T22:12:03.284Z"
-time: "5"
+date: '2022-02-20T22:12:03.284Z'
+time: '5'
+tags: ['lorem', 'ipsum']
 ---
 
 Over the past decade, it has been evident that a software engineer has become one of the highly important and in-demand jobs there are. As reported by the International Data Corporation, 26.2 million of the world population in 2020 worked in software development, 13.5 million of which working full-time creating new programs and enabling services that make people's lives, more or less, easier and better. Yet, there is more to this job than what non-coders might think.
@@ -12,9 +13,9 @@ Software developers encounter challenges that at best promote their professional
 
 Though working for a Fortune 500 company is worthwhile for one's career prospects, it has a seemingly dark side that poorly influences the progress one expects to make. At IBM, where I used to work, there was that very strict process that regulated the workflow in a way that preserved the company's integrity. While it was helpful in some situations, such as settling disputes among teams, such a process did not provide much of a chance for me to develop my performance in terms of putting new ideas into action or genuinely contributing to decision-making.
 
-Secondly, with big companies, there is not much freedom of choice regarding the projects developers work on nor, sometimes, with being enabled to climb up the career ladder. For instance, I was working on what I considered an exclusively insignificant project for my growth. I tried so hard to escape it; however, my client at the time decided it was better for me to stay 'for the moment.' Furthermore, the only chance for me to progress at IBM was a promotion that I never qualified for because I had to lead a team of at least three developers. That was very unlikely because 
+Secondly, with big companies, there is not much freedom of choice regarding the projects developers work on nor, sometimes, with being enabled to climb up the career ladder. For instance, I was working on what I considered an exclusively insignificant project for my growth. I tried so hard to escape it; however, my client at the time decided it was better for me to stay 'for the moment.' Furthermore, the only chance for me to progress at IBM was a promotion that I never qualified for because I had to lead a team of at least three developers. That was very unlikely because
 
-a) my team was always down to two developers including me and 
+a) my team was always down to two developers including me and
 
 b) the client had no intention to expand it. And that was the last straw and I was left with no other option than to quit.
 

@@ -1,7 +1,8 @@
 ---
 title: Hello World!
-date: "2018-12-31T22:12:03.284Z"
-time: "1"
+date: '2018-12-31T22:12:03.284Z'
+time: '1'
+tags: ['lorem', 'ipsum', 'sit', 'amet']
 ---
 
 This is my first post on my new blog! How exciting!

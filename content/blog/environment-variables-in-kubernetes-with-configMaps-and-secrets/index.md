@@ -1,7 +1,8 @@
 ---
 title: Environment Variables in Kubernetes with configMaps and secrets
-date: "2020-07-04T22:12:03.284Z"
-time: "5"
+date: '2020-07-04T22:12:03.284Z'
+time: '5'
+tags: ['lorem', 'ipsum']
 ---
 
 ![kubelogo.png](kubelogo.png)
@@ -10,11 +11,11 @@ Inside a Kubernetes cluster in some cases you will need to manage environment va
 
 ## configMap
 
-According to the Kubernetes, documentation [configMap](https://kubernetes.io/docs/concepts/configuration/configmap/) is an Object used to store **non-confidential** data in key-value pairs. 
+According to the Kubernetes, documentation [configMap](https://kubernetes.io/docs/concepts/configuration/configmap/) is an Object used to store **non-confidential** data in key-value pairs.
 
-Your Deployments can consume configMaps in three different ways 
+Your Deployments can consume configMaps in three different ways
 
-First we need to write a configMap file like this to reference it in our deployment configs 
+First we need to write a configMap file like this to reference it in our deployment configs
 
 ```yaml
 #database-config.yaml
@@ -23,8 +24,8 @@ kind: ConfigMap
 metadata:
   name: database-config
 data:
-  DATABASE_URL: "https://mydatabase.com:3306"
-  DATABASE_PASSWORD: "password"
+  DATABASE_URL: 'https://mydatabase.com:3306'
+  DATABASE_PASSWORD: 'password'
 ```
 
 1- **Consuming configMap as Env variables**
@@ -48,19 +49,19 @@ spec:
         app: example
     spec:
       containers:
-      - name: example
-        image: mustafah15/example
-        env:
-          - name: DATABASE_URL
-            valueFrom:
-              configMapKeyRef:
-                name: database-config
-                key: DATABASE_URL #key inside the configMap file
-          - name: DATABASE_PASSWORD
-            valueFrom:
-              configMapKeyRef:
-                name: database-config
-                key: DATABASE_PASSWORD #key inside the configMap file
+        - name: example
+          image: mustafah15/example
+          env:
+            - name: DATABASE_URL
+              valueFrom:
+                configMapKeyRef:
+                  name: database-config
+                  key: DATABASE_URL #key inside the configMap file
+            - name: DATABASE_PASSWORD
+              valueFrom:
+                configMapKeyRef:
+                  name: database-config
+                  key: DATABASE_PASSWORD #key inside the configMap file
 ```
 
 2- U**sing envFrom Instead**
@@ -84,11 +85,11 @@ spec:
         app: example
     spec:
       containers:
-      - name: example
-        image: mustafah15/example
-        envFrom:
-        - configMapRef:
-            name: database-config
+        - name: example
+          image: mustafah15/example
+          envFrom:
+            - configMapRef:
+                name: database-config
 ```
 
 3- **Mounting ConfigMaps as Volumes**
@@ -126,15 +127,15 @@ spec:
         app: example
     spec:
       containers:
-      - name: example
-        image: mustafah15/example
-        volumeMounts:
-        - name: database-config-volume
-          mountPath: /etc/any/dir/config
+        - name: example
+          image: mustafah15/example
+          volumeMounts:
+            - name: database-config-volume
+              mountPath: /etc/any/dir/config
       volumes:
-      - name: database-config-volume
-        configMap:
-          name: database-config-v2
+        - name: database-config-volume
+          configMap:
+            name: database-config-v2
 ```
 
 ## Secret
@@ -150,11 +151,11 @@ kind: Secret
 metadata:
   name: api-credentials
 stringData:
-  accessKey: "1235812211231"
-  secretKey: "topSecret"
+  accessKey: '1235812211231'
+  secretKey: 'topSecret'
 ```
 
-and you can bind it into your deployment like this 
+and you can bind it into your deployment like this
 
 ```yaml
 apiVersion: apps/v1
@@ -171,14 +172,14 @@ spec:
         app: example
     spec:
       containers:
-      - name: example
-        image: mustafah15/example
-        env:
-          - name: ACCESS_KEY
-            valueFrom:
-              secretKeyRef:
-                name: api-credentials
-                key: accessKey
+        - name: example
+          image: mustafah15/example
+          env:
+            - name: ACCESS_KEY
+              valueFrom:
+                secretKeyRef:
+                  name: api-credentials
+                  key: accessKey
 ```
 
 eventually think of the secrets as special kind of configMaps that are slightly harder to look at.
