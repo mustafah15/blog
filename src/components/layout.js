@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { ThemeToggler as Toggler } from 'gatsby-plugin-dark-mode'
 
-import { rhythm, scale } from '../utils/typography'
+import { rhythm } from '../utils/typography'
 
 const ThemeToggler = props => {
   return (
@@ -26,76 +26,36 @@ class Layout extends React.Component {
     let header
     if (location.pathname === rootPath) {
       header = (
-        <header style={{ position: 'relative' }}>
-          <h1
-            style={{
-              ...scale(1.0),
-              marginBottom: rhythm(1.5),
-              marginTop: 0,
-            }}
-          >
-            <Link
-              style={{
-                boxShadow: 'none',
-                textDecoration: 'none',
-                color: 'inherit',
-              }}
-              to={'/'}
-            >
-              {title}
-            </Link>
+        <header className="flex items-center py-12 justify-between">
+          <h1 className="text-[36px] font-extrabold">
+            <Link to={'/'}>{title}</Link>
           </h1>
-          <ThemeToggler
-            style={{
-              position: 'absolute',
-              top: 12,
-              right: 0,
-            }}
-          />
+
+          <nav className="flex gap-x-10">
+            <Link to={'/'}>Blogs</Link>
+            <Link to={'/tags'}>Tags</Link>
+            <Link to={'/'}>About</Link>
+            <ThemeToggler />
+          </nav>
         </header>
       )
     } else {
       header = (
-        <header style={{ position: 'relative' }}>
-          <h3
-            style={{
-              fontFamily: 'Montserrat, sans-serif',
-              marginTop: 0,
-              marginBottom: rhythm(-1),
-            }}
-          >
-            <Link
-              style={{
-                boxShadow: 'none',
-                textDecoration: 'none',
-                color: 'inherit',
-              }}
-              to={'/'}
-            >
-              {title}
-            </Link>
+        <header className="flex items-center py-8 justify-between">
+          <h3 className="text-[24px] font-extrabold">
+            <Link to={'/'}>{title}</Link>
           </h3>
-          <ThemeToggler
-            style={{
-              position: 'absolute',
-              top: -8,
-              right: 0,
-            }}
-          />
+          <nav className="flex gap-x-10">
+            <Link to={'/'}>Blogs</Link>
+            <Link to={'/tags'}>Tags</Link>
+            <Link to={'/'}>About</Link>
+            <ThemeToggler />
+          </nav>
         </header>
       )
     }
     return (
-      <div
-        style={{
-          marginLeft: 'auto',
-          marginRight: 'auto',
-          maxWidth: rhythm(26),
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-          backgroundColor: 'var(--bg)',
-          color: 'var(--textNormal)',
-        }}
-      >
+      <div className={`mx-auto max-w-screen-lg px-5 py-${rhythm(3 / 4)}`}>
         {header}
         {children}
       </div>
