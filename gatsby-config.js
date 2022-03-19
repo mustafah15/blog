@@ -79,9 +79,6 @@ module.exports = {
       },
     },
     'gatsby-plugin-dark-mode',
-<<<<<<< HEAD
     `gatsby-plugin-postcss`,
-=======
->>>>>>> 7c77791be0fc75fa53bd16f1da2a432e1a8a3f65
   ],
 }
