@@ -2,7 +2,7 @@
 title: Five Tips I Use To Boost My Productivity
 date: '2020-12-23T22:12:03.284Z'
 time: '3'
-tags: ['productivity', 'tips']
+tags: ['productivity']
 ---
 
 I have been working from home since April 2019,

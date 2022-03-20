@@ -2,7 +2,7 @@
 title: How I Sort My Life With Sorted3
 date: '2021-04-19T22:12:03.284Z'
 time: '3'
-tags: ['lorem', 'ipsum']
+tags: ['productivity']
 ---
 
 disclaimer: this is not a sponsored blog.

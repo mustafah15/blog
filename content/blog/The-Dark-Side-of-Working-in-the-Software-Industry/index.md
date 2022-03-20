@@ -2,7 +2,7 @@
 title: The Dark Side of Working in the Software Industry
 date: '2022-02-20T22:12:03.284Z'
 time: '5'
-tags: ['lorem', 'ipsum']
+tags: ['software industry']
 ---
 
 Over the past decade, it has been evident that a software engineer has become one of the highly important and in-demand jobs there are. As reported by the International Data Corporation, 26.2 million of the world population in 2020 worked in software development, 13.5 million of which working full-time creating new programs and enabling services that make people's lives, more or less, easier and better. Yet, there is more to this job than what non-coders might think.

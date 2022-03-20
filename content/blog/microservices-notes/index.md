@@ -2,7 +2,7 @@
 title: Notes on building microservices!
 date: '2018-08-01T22:12:03.284Z'
 time: '3'
-tags: ['lorem', 'ipsum']
+tags: ['software architecture']
 ---
 
 ![](https://cdn-images-1.medium.com/max/1440/1*3JKJYR37PS9JMy1gGIi0fw.jpeg)

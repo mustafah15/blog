@@ -2,7 +2,7 @@
 title: Software Components
 date: '2019-04-06T22:12:03.284Z'
 time: '4'
-tags: ['lorem', 'ipsum']
+tags: ['software architecture']
 ---
 
 ![](https://cdn-images-1.medium.com/max/1600/0*bnfIs_NW1Xz3P9r3)

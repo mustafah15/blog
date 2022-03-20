@@ -2,7 +2,7 @@
 title: Environment Variables in Kubernetes with configMaps and secrets
 date: '2020-07-04T22:12:03.284Z'
 time: '5'
-tags: ['lorem', 'ipsum']
+tags: ['devops']
 ---
 
 ![kubelogo.png](kubelogo.png)

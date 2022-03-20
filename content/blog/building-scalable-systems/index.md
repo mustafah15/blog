@@ -2,7 +2,7 @@
 title: Building Scalable Systems
 date: '2020-04-16T22:12:03.284Z'
 time: '12'
-tags: ['lorem', 'ipsum']
+tags: ['software architecture']
 ---
 
 This blog some shattered notes maybe we should consider while studying about how to build scalable distributed system before we dive into let's start with some definitions as they are the main characteristics of any distributed system

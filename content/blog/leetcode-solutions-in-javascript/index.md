@@ -2,7 +2,7 @@
 title: My leetcode solutions in javascript
 date: '2020-06-11T22:12:03.284Z'
 time: '1'
-tags: ['lorem', 'ipsum']
+tags: ['problem solving']
 ---
 
 | problem on leet code                                                                                                               | solution                                                                                                                 | tags                            |
