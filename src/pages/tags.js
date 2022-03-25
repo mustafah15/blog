@@ -24,7 +24,7 @@ const TagsPage = ({
                 to={`/tags/${kebabCase(tag.fieldValue)}/`}
                 className="uppercase text-[18px]"
               >
-                <span className="text-[#14b8a6] mr-1.5">{tag.fieldValue}</span>
+                <span className="text-[#1479b8] mr-1.5">{tag.fieldValue}</span>
                 {`(${tag.totalCount})`}
               </Link>
             </li>
