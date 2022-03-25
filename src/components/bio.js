@@ -1,7 +1,6 @@
 import React from 'react'
-import { StaticQuery, graphql } from 'gatsby'
+import { StaticQuery, graphql, Link } from 'gatsby'
 import Image from 'gatsby-image'
-
 import { rhythm } from '../utils/typography'
 
 function Bio() {
@@ -23,16 +22,26 @@ function Bio() {
               style={{
                 marginRight: rhythm(1 / 2),
                 marginBottom: 0,
-                minWidth: 50,
+                minWidth: 250,
                 borderRadius: '100%',
               }}
             />
-            <p className="leading-loose text-[16px]">
+            <h1 className="text-[30px] font-extrabold">{author}</h1>
+
+            <p className="leading-loose text-[26px]">
               Personal blog by{' '}
-              <strong>
-                <a href={`https://twitter.com/${social.twitter}`}>{author}</a>
-              </strong>
-              . I share what I learned about Software Engineering, Productivity,
+
+                    <Link
+                      style={{
+                        boxShadow: 'none',
+                        color: '#1479b8',
+                      }}
+                      to={`https://twitter.com/${social.twitter}`}
+                    >
+                      {author}
+                    </Link>
+              
+              . I share what I am learning about Software Engineering, Productivity,
               on my{' '}
               <a
                 href={
@@ -54,7 +63,7 @@ const bioQuery = graphql`
   query BioQuery {
     avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
       childImageSharp {
-        fixed(width: 50, height: 50) {
+        fixed(width: 250, height: 250) {
           ...GatsbyImageSharpFixed
         }
       }

@@ -10,8 +10,11 @@ class AboutMePage extends React.Component {
     return (
       <Layout location={this.props.location}>
         <SEO title="About Me; Mustafa Hussain" />
-        <Bio />
-  
+          <h1 className="text-[60px] font-extrabold">About Me</h1>
+          <div className="h-[2px] w-[200px] bg-gray-200" style={{ marginBottom: '20px'}}>
+          </div>
+          <Bio />
+
         <NewsLetter />
       </Layout>
     )
