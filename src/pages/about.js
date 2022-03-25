@@ -11,16 +11,7 @@ class AboutMePage extends React.Component {
       <Layout location={this.props.location}>
         <SEO title="About Me; Mustafa Hussain" />
         <Bio />
-        <hr
-          style={{
-            color: 'green',
-            display: 'block',
-            height: '1px',
-            borderTop: '1px solid #888888',
-            marginTop: rhythm(1),
-            marginBottom: rhythm(2),
-          }}
-        />
+  
         <NewsLetter />
       </Layout>
     )
