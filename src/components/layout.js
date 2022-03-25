@@ -34,7 +34,7 @@ class Layout extends React.Component {
           <nav className="flex gap-x-10">
             <Link to={'/'}>Blogs</Link>
             <Link to={'/tags'}>Tags</Link>
-            <Link to={'/'}>About</Link>
+            <Link to={'/about'}>About</Link>
             <ThemeToggler />
           </nav>
         </header>
@@ -48,7 +48,7 @@ class Layout extends React.Component {
           <nav className="flex gap-x-10">
             <Link to={'/'}>Blogs</Link>
             <Link to={'/tags'}>Tags</Link>
-            <Link to={'/'}>About</Link>
+            <Link to={'/about'}>About</Link>
             <ThemeToggler />
           </nav>
         </header>

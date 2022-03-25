@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 
-import Bio from '../components/bio'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import { rhythm } from '../utils/typography'
@@ -30,7 +29,6 @@ class BlogIndex extends React.Component {
             'engineer',
           ]}
         />
-        <Bio />
         <div className="flex flex-col gap-y-16">
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
