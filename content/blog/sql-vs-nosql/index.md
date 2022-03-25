@@ -2,7 +2,7 @@
 title: SQL VS NOSQL In Nutshell
 date: '2019-11-03T22:12:03.284Z'
 time: '4'
-tags: ['software architecture', 'database']
+tags: ['software architecture']
 ---
 
 Both of them differ in the way they were build, the kind of information they store, and the storage method they use.

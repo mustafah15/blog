@@ -2,7 +2,7 @@
 title: My 2020 In Review
 date: '2020-12-19T22:12:03.284Z'
 time: '5'
-tags: ['life']
+tags: ['developer life']
 ---
 
 This year was special for me but, still the most blessing thing that happened to me this year is that My family and I survived through this crazy pandemic Alhamdulillah.

@@ -2,7 +2,7 @@
 title: Why You Should Be A Serial Achiever?
 date: '2021-03-31T22:12:03.284Z'
 time: '3'
-tags: ['life', 'productivity']
+tags: ['productivity']
 ---
 
 Imagine being a doctor and a YouTuber and a marathon runner and a writer and whatever else you want, sounds good? Or is this person definitely not successful at any of these things?!
