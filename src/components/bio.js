@@ -26,8 +26,6 @@ function Bio() {
                 borderRadius: '100%',
               }}
             />
-            <h1 className="text-[30px] font-extrabold">{author}</h1>
-
             <p className="leading-loose text-[26px]">
               Personal blog by{' '}
 

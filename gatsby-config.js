@@ -7,9 +7,9 @@ module.exports = {
     siteUrl: 'https://mhussain.net',
     social: {
       github: 'mustafah15',
-      twitter: 'mustafah_15',
+      twitter: 'https://twitter.com/_mustafah15',
       youtube: 'https://www.youtube.com/channel/UC_57Z3KC1RzGRJMBYZGJYtA',
-      email: '',
+      email: 'mustafa.hussain93@gmail.com',
     },
   },
   plugins: [
