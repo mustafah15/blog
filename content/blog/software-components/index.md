@@ -1,9 +1,9 @@
 ---
 title: Software Components
-date: "2019-04-06T22:12:03.284Z"
-time: "4"
+date: '2019-04-06T22:12:03.284Z'
+time: '4'
+tags: ['software architecture']
 ---
-
 
 ![](https://cdn-images-1.medium.com/max/1600/0*bnfIs_NW1Xz3P9r3)
 <span class="figcaption_hack">Photo by
@@ -19,7 +19,7 @@ independently deployed as separate plugins, regardless of how they have
 eventually deployed well-designed components always retain the ability to be
 independently deployed and developed.
 
-*****
+---
 
 We will discuss a little how we can design a cohesive software component, we
 will discuss **principles of components cohesion** which [uncle
@@ -27,9 +27,9 @@ bob](https://en.wikipedia.org/wiki/Robert_C._Martin) defined them in details in
 his book [clean
 architecture](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882).
 
-* REP: Reuse-Release Equivalence principle.
-* CCP: Common Closure Principle.
-* CRP: Common Reuse Principle.
+- REP: Reuse-Release Equivalence principle.
+- CCP: Common Closure Principle.
+- CRP: Common Reuse Principle.
 
 #### REP: Reuse-Release Equivalence Principle
 
@@ -44,12 +44,11 @@ This principle means that the classes and modules that are formed into a
 component must belong t a cohesive group. a software component can not consist
 of random classes and modules there’s must be some overarching theme of purpose.
 
-
 #### CCP: Common Closure Principle
 
 > gather into component those classes that change for the same reason and at the
 > same time separate into different components those classes that change at a
-different time and for different reasons.
+> different time and for different reasons.
 
 The CCP is the component form for the
 [SRP](https://en.wikipedia.org/wiki/Single_responsibility_principle), while the
@@ -73,4 +72,3 @@ to use components that have classes we don’t need.
 Finally, that was a very simple introduction to how to develop a cohesive
 component, helping you to take the decision of which classes belong in which
 components.
-

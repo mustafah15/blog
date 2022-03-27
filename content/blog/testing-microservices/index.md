@@ -1,7 +1,8 @@
 ---
 title: Testing Microservices
-date: "2019-03-20T22:12:03.284Z"
-time: "7"
+date: '2019-03-20T22:12:03.284Z'
+time: '7'
+tags: ['software architecture']
 ---
 
 A microservice architecture involves many moving parts with different guarantees
@@ -142,4 +143,3 @@ The combination of different type of test strategies leads to more code coverage
 that help you to find edge cases that we need to handle in our actual code.
 
 #### This blog is written in collaboration with [Mohamed Ashour](http://www.linkedin.com/in/mohamed77)
-

@@ -1,7 +1,8 @@
 ---
 title: Notes on building microservices!
-date: "2018-08-01T22:12:03.284Z"
-time: "3"
+date: '2018-08-01T22:12:03.284Z'
+time: '3'
+tags: ['software architecture']
 ---
 
 ![](https://cdn-images-1.medium.com/max/1440/1*3JKJYR37PS9JMy1gGIi0fw.jpeg)
@@ -34,24 +35,24 @@ operation system process.
 
 ### **Key benefits from Microservices architecture**
 
-* **Technology Heterogeneity**: with system composed of multiple service we can
-decide to use different technologies inside each one.
-* **Resilience**: if one of system component failed you can isolate it and your
-system should operate normally.
-* **Scaling**: with a large monolithic app you must scale everything as one piece
-on the other hand with a small services you can just scale that small service
-that needs a scaling.
-* **Ease of deployment**: with microservices you can change to an single service
-and deploy it independently of the rest of the system this means faster
-deployment, lower risk than deployment in a monolithic app which means a
-one-line change requires the whole system to be deployed in order to release the
-change.
-* **Organizational alignment: **microservices helps you to have better align our
-architecture to your organization, by minimizing the number of people working on
-any one codebase to hit the sweet spot of team size and productivity.
-* **Optimizing for replaceability: **with our individual services being small in
-size the cost to replace them with a better implementation is much easier to
-mange.
+- **Technology Heterogeneity**: with system composed of multiple service we can
+  decide to use different technologies inside each one.
+- **Resilience**: if one of system component failed you can isolate it and your
+  system should operate normally.
+- **Scaling**: with a large monolithic app you must scale everything as one piece
+  on the other hand with a small services you can just scale that small service
+  that needs a scaling.
+- **Ease of deployment**: with microservices you can change to an single service
+  and deploy it independently of the rest of the system this means faster
+  deployment, lower risk than deployment in a monolithic app which means a
+  one-line change requires the whole system to be deployed in order to release the
+  change.
+- **Organizational alignment: **microservices helps you to have better align our
+  architecture to your organization, by minimizing the number of people working on
+  any one codebase to hit the sweet spot of team size and productivity.
+- **Optimizing for replaceability: **with our individual services being small in
+  size the cost to replace them with a better implementation is much easier to
+  mange.
 
 This blog is my notes on chapter 1 from [Building microservices book for sam
 newman](http://shop.oreilly.com/product/0636920033158.do) and it’s a part of my

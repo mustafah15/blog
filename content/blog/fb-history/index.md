@@ -1,7 +1,8 @@
 ---
 title: Some history about Functional programming - λ calculus!
-date: "2018-04-11T22:12:03.284Z"
-time: "2"
+date: '2018-04-11T22:12:03.284Z'
+time: '2'
+tags: ['functional programming']
 ---
 
 ### Some history about Functional programming - λ calculus
@@ -25,15 +26,15 @@ and it’s going to produce an output.
 
 There’s two facts about functions in λ calculus:
 
-* functions are black box so you are not allowed to look inside, you can’t see the
-mechanism of what’s going on.
-* functions are pure so they have no **internal state**, no hidden information
-that we can use.
+- functions are black box so you are not allowed to look inside, you can’t see the
+  mechanism of what’s going on.
+- functions are pure so they have no **internal state**, no hidden information
+  that we can use.
 
 **What’s the point of λ calculus?**
 
-* You can encode any computation into lambda calculus function.
-* It build the basis of functional programming.
+- You can encode any computation into lambda calculus function.
+- It build the basis of functional programming.
 
 **What you can do with** **λ calculus?**
 
@@ -80,5 +81,5 @@ That’s was a very simple introduction about lambda calculus.
 
 here’s some resources where i read about lambda calculus.
 
-* [https://www.cs.kent.ac.uk/people/staff/dat/tfp12/tfp12.pdf](https://www.cs.kent.ac.uk/people/staff/dat/tfp12/tfp12.pdf)
-* [https://en.wikipedia.org/wiki/Lambda_calculus](https://en.wikipedia.org/wiki/Lambda_calculus)
+- [https://www.cs.kent.ac.uk/people/staff/dat/tfp12/tfp12.pdf](https://www.cs.kent.ac.uk/people/staff/dat/tfp12/tfp12.pdf)
+- [https://en.wikipedia.org/wiki/Lambda_calculus](https://en.wikipedia.org/wiki/Lambda_calculus)

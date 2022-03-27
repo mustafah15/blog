@@ -1,19 +1,31 @@
-body {
-  --bg: white;
-  --textNormal: #222;
-  --textTitle: #222;
-  --textLink: blue;
-  --hr: hsla(0, 0%, 0%, 0.2);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
-  background-color: var(--bg);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply font-roboto;
+}
+
+body {
+  @apply bg-white text-[#222];
 }
 
 body.dark {
   -webkit-font-smoothing: antialiased;
+  @apply bg-[#121212] text-white;
+}
 
-  --bg: #121212;
-  --textNormal: rgba(255, 255, 255, 0.88);
-  --textTitle: white;
-  --textLink: yellow;
-  --hr: hsla(0, 0%, 100%, 0.2);
+a {
+  @apply decoration-0 shadow-none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply text-xl font-bold mt-8 mb-5;
 }
