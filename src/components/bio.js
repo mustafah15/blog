@@ -8,14 +8,14 @@ function Bio() {
     <StaticQuery
       query={bioQuery}
       render={data => {
-        const { author, social } = data.site.siteMetadata
+        const { social } = data.site.siteMetadata
         return (
-          <div
-            style={{
+          <div>
+            <div style={{
               marginBottom: rhythm(2.5),
             }}
-            className="justify-center gap-x-5"
-          >
+            className="justify-center gap-x-5">
+
             <p className="leading-loose text-[26px]">
             Hello!👋🏽 
             My name is Mustafa Hussain. 
@@ -26,15 +26,17 @@ function Bio() {
             In the 7+ years that I have spent as part of the software engineering industry, 
             I have managed to build a lot of stuff that helped me to improve both my collaboration skills and my analytical skills.
             Building highly scalable backend services is something that I am always interested in.
-            Apart from being a software engineer, I also like to spend some of my time reading, making coffee and doing a long distance running. 
-            I guess you can say that I am a bit of an overachiever, but it makes me exactly who I am.
+            <br></br>
+            Apart from being a software engineer, I also like to spend some of my time reading📚, brewing coffee☕️ and doing a long distance running 🏃🏾. 
             </p>
+            </div>
 
             <div className="justify-center gap-x-5" >
               <Link to={`${social.twitter}`} className="uppercase text-[20px]">🐥 twitter </Link>
               <Link to={`${social.github}`} className="uppercase text-[20px]">👨🏾‍💻 github </Link>
             </div>
           </div>
+          
         )
       }}
     />
