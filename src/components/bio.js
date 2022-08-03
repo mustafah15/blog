@@ -27,28 +27,15 @@ function Bio() {
               }}
             />
             <p className="leading-loose text-[26px]">
-              Personal blog by{' '}
-
-                    <Link
-                      style={{
-                        boxShadow: 'none',
-                        color: '#1479b8',
-                      }}
-                      to={`https://twitter.com/${social.twitter}`}
-                    >
-                      {author}
-                    </Link>
-              
-              . I share what I am learning about Software Engineering, Productivity,
-              on my{' '}
-              <a
-                href={
-                  'https://www.youtube.com/channel/UC_57Z3KC1RzGRJMBYZGJYtA'
-                }
-              >
-                Youtube channel
-              </a>{' '}
-              and blog. Feel free to join my newsletter to follow along.
+            Hello!👋🏽 
+            My name is Mustafa Hussain. I am a software engineer who spends the
+            majority of his time seeking out new, innovative solutions related to the software engineering.
+            That being said, I always do my best to develop high-quality backend solutions for my clients.
+            In the 7+ years that I have spent as part of the software engineering industry, 
+            I have managed to build a lot of stuff that helped me to improve both my collaboration skills and my analytical skills.
+            Building highly scalable backend services is something that I am always interested in.
+            Apart from being a software engineer, I also like to spend some of my time reading, making coffee and doing a long distance running. 
+            I guess you can say that I am a bit of an imposter, but it makes me exactly who I am.
             </p>
           </div>
         )
