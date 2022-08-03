@@ -20,17 +20,19 @@ function Bio() {
               fixed={data.avatar.childImageSharp.fixed}
               alt={author}
               style={{
-                marginRight: rhythm(1 / 2),
+                marginRight: rhythm(1 / 4),
                 marginBottom: 0,
-                minWidth: 250,
+                minWidth: 150,
                 borderRadius: '100%',
               }}
             />
             <p className="leading-loose text-[26px]">
             Hello!👋🏽 
-            My name is Mustafa Hussain. I am a software engineer who spends the
-            majority of his time seeking out new, innovative solutions related to the software engineering.
+            My name is Mustafa Hussain. 
+            <br></br>
+            I am a software engineer who spends the majority of his time seeking out new, innovative solutions related to the software engineering.
             That being said, I always do my best to develop high-quality backend solutions for my clients.
+            <br></br>
             In the 7+ years that I have spent as part of the software engineering industry, 
             I have managed to build a lot of stuff that helped me to improve both my collaboration skills and my analytical skills.
             Building highly scalable backend services is something that I am always interested in.
