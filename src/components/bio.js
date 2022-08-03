@@ -35,7 +35,7 @@ function Bio() {
             I have managed to build a lot of stuff that helped me to improve both my collaboration skills and my analytical skills.
             Building highly scalable backend services is something that I am always interested in.
             Apart from being a software engineer, I also like to spend some of my time reading, making coffee and doing a long distance running. 
-            I guess you can say that I am a bit of an imposter, but it makes me exactly who I am.
+            I guess you can say that I am a bit of an overachiever, but it makes me exactly who I am.
             </p>
           </div>
         )
