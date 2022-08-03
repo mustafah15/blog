@@ -6,7 +6,7 @@ module.exports = {
       'Personal blog by Mustafa Hussain. \n I share what I learned about software engineering, productivity, and building new habits on my Youtube channel and blog. Feel free to join my newsletter to follow along.',
     siteUrl: 'https://mhussain.net',
     social: {
-      github: 'mustafah15',
+      github: 'https://github.com/mustafah15',
       twitter: 'https://twitter.com/_mustafah15',
       youtube: 'https://www.youtube.com/channel/UC_57Z3KC1RzGRJMBYZGJYtA',
       email: 'mustafa.hussain93@gmail.com',

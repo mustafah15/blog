@@ -14,18 +14,8 @@ function Bio() {
             style={{
               marginBottom: rhythm(2.5),
             }}
-            className="flex items-center gap-x-5"
+            className="justify-center gap-x-5"
           >
-            <Image
-              fixed={data.avatar.childImageSharp.fixed}
-              alt={author}
-              style={{
-                marginRight: rhythm(1 / 4),
-                marginBottom: 0,
-                minWidth: 150,
-                borderRadius: '100%',
-              }}
-            />
             <p className="leading-loose text-[26px]">
             Hello!👋🏽 
             My name is Mustafa Hussain. 
@@ -39,6 +29,11 @@ function Bio() {
             Apart from being a software engineer, I also like to spend some of my time reading, making coffee and doing a long distance running. 
             I guess you can say that I am a bit of an overachiever, but it makes me exactly who I am.
             </p>
+
+            <div className="justify-center gap-x-5" >
+              <Link to={`${social.twitter}`} className="uppercase text-[20px]">🐥 twitter </Link>
+              <Link to={`${social.github}`} className="uppercase text-[20px]">👨🏾‍💻 github </Link>
+            </div>
           </div>
         )
       }}
