@@ -57,7 +57,6 @@ module.exports = {
         trackingId: `UA-48540732-2`,
       },
     },
-    `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -69,6 +68,7 @@ module.exports = {
         display: `minimal-ui`,
         icon: `content/assets/gatsby-icon.png`,
       },
+      
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,

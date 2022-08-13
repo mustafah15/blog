@@ -1,6 +1,6 @@
 import React from 'react'
 import { StaticQuery, graphql, Link } from 'gatsby'
-import Image from 'gatsby-image'
+import Image from 'gatsby-plugin-image'
 import { rhythm } from '../utils/typography'
 
 function Bio() {
