@@ -53,7 +53,6 @@ class BlogPostTemplate extends React.Component {
         />
 
         <NewsLetter />
-        <Bio />
 
         <ul
           style={{
